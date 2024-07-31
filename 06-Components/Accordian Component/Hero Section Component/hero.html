@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <title>OmniFood Project</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    html {
+      font-family: "Rubik", sans-serif;
+      color: #444;
+    }
+
+    .container {
+      margin: 0 auto;
+      width: 1100px;
+    }
+
+    header {
+      position: relative;
+      height: 100vh;
+      background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(44, 44, 44, 0.548)
+        ),
+        url(hero.jpg);
+      background-size: cover;
+      color: #fff;
+    }
+
+    .header-container {
+      width: 1100px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .header-container--contents {
+      width: 60%;
+    }
+
+    nav {
+      font-size: 20px;
+      font-weight: 700;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 32px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 32px;
+      line-height: 1.1;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 48px;
+    }
+
+    .btn:link,
+    .btn:visited {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 600;
+      background-color: #e67e22;
+      color: #fff;
+      display: inline-block;
+      padding: 16px 32px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      font-size: 44px;
+      margin-bottom: 48px;
+    }
+
+    section {
+      padding: 96px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <div>OmniFood</div>
+      <div>NAVIGATION</div>
+    </nav>
+
+    <div class="header-container">
+      <div class="header-container--contents">
+        <h1>We serve you one of our best food. To have healthier and quality food everyday.</h1>
+        <p>The taste that you will remember and that will make you go back to our restaurant.</p>
+        <a href="#" class="btn">Best food here</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2>Food that we serve</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusantium magni aut illum tempore doloremque,
+        quis officia possimus unde obcaecati, fugiat ipsa distinctio nisi ipsum iure delectus enim consectetur!
+        Aliquam nulla repellendus eaque vel at atque nisi corrupti tempore amet sapiente dolor, quos iure, architecto
+        inventore suscipit eos possimus?
+      </p>
+    </div>
+  </section>
+</body>
+
+</html>
