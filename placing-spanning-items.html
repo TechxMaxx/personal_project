@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid With Height set</title>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        height: 240px;
+        background-color: black;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .item-one {
+        background-color: red;
+        
+        /* Experiment */
+        height: 60px;
+        width: 200px;
+    }
+
+    .item-two {
+        background-color: orange;
+    }
+
+    .item-three {
+        background-color: yellow;
+    }
+
+    .item-four {
+        background-color: green;
+
+        /* Experiment */
+        width: 220px;
+        height: 90px;
+        margin-left: 20px;
+    }
+
+    .item-five {
+        background-color: blue;
+    }
+
+    .item-six {
+        background-color: indigo;
+    }
+</style>
+<body>
+    <div class="grid-container">
+        <div class="item item-one"></div>
+        <div class="item item-two"></div>
+        <div class="item item-three"></div>
+        <div class="item item-four"></div>
+        <div class="item item-five"></div>
+        <div class="item item-six"></div>
+    </div>
+</body>
+</html>
